@@ -5,8 +5,11 @@ PHP with Laravel Framework course final assessment project source code.
 1. composer install
 2. npm install
 3. setup .env
-4. migrate
-5. serve
+4. php artisan migrate
+5. php artisan key:generate.
+6. php artisan config:clear,
+7. php artisan config:cache
+8. php artisan serve
 
 ## Frontend
 <div style="display: grid; grid-template-columns: repeat(3, 1fr);">
